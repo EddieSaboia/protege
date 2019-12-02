@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#nome -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#nome"/>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#preço -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#preço"/>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#tamanho -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#tamanho"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#peso -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#peso">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#preco -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#preco">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#tamanho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#tamanho">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Luminária -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Luminária">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Planta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Planta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Quadro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Quadro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Tapete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Tapete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Vaso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Vaso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Adorno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#peso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#peso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#preco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#preco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#tamanho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#tamanho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#values -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#values"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Vaso_Chinês -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Vaso_Chinês">
+        <rdf:type rdf:resource="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Vaso"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Luminária"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Planta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Quadro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Tapete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/eddiesaboia/ontologies/2019/10/untitled-ontology-5#Vaso"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
